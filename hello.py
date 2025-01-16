@@ -1,2 +1,2 @@
-name = "Joseph"
+name = "Wesley"
 print("Hello, " + name + "!")
