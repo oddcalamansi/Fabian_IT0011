@@ -1,4 +1,4 @@
-inputstring = input("Input: ")
+input = input("Input: ")
 vowel = "aAeEiIoOuU"
 consonant = "bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVwWxXyYzZ"
 space = " "
@@ -7,7 +7,7 @@ consonants = 0
 spaces = 0
 others = 0
 
-for i in inputstring:
+for i in input:
     if i in vowel:
         vowels = vowels + 1
     elif i in consonant:
