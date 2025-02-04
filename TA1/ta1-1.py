@@ -18,7 +18,7 @@ for i in input:
         others = others + 1
         
 print(" ")
-print("Vowels: ", vowels)
-print("Consonants: ", consonants)
+print("Vowels:", vowels)
+print("Consonants:", consonants)
 print("Spaces:", spaces)
-print("Others: ", others)
+print("Others:", others)
