@@ -1,4 +1,4 @@
-inputstring = "=43141asadasdasd22!     !!!,,,,;;;;;fe34134"
+inputstring = input("Input: ")
 vowel = "aAeEiIoOuU"
 consonant = "bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVwWxXyYzZ"
 space = " "
@@ -17,6 +17,7 @@ for i in inputstring:
     else:
         others = others + 1
         
+print(" ")
 print("Vowels: ", vowels)
 print("Consonants: ", consonants)
 print("Spaces:", spaces)
