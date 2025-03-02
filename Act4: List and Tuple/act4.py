@@ -81,7 +81,7 @@ while True:
     elif enternumber == "a":  
         print("Records ordered by last name")
 
-    elif enternumber == "b":   
+    elif enternumber == "b":    
         print("Records ordered by final grade.")
 
     elif enternumber == "5":  
@@ -118,13 +118,13 @@ while True:
 
     elif enternumber == "7":  
         studentid = input("\nEnter Student ID: ")
-        for x, (sid, (studentname), classstanding, majorexamgrade) in enumerate(records):
-            if sid == studentid:
+        for x, (studid, (studentname), classstanding, majorexamgrade) in enumerate(records):
+            if studid == studentid:
                 newstudentname = input(f"Enter New Student Name [{studentname}]: ") or studentname
                 newclassstanding = input(f"Enter New Student Class Standing [{classstanding}]: ") or classstanding
                 newmajorexamgrade = input(f"Enter New Major Exam Grade [{majorexamgrade}]: ") or majorexamgrade
 
-                records[x] = (sid, (newstudentname), newclassstanding, newmajorexamgrade)
+                records[x] = (studid, (newstudentname), newclassstanding, newmajorexamgrade)
                 print("Record updated")
                 break
         else:
