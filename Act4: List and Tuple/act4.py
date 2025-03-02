@@ -79,11 +79,9 @@ while True:
                 )
 
     elif enternumber == "a":  
-        records.sort(key=lambda x: x[1][1])  
         print("Records ordered by last name")
 
-    elif enternumber == "b":  
-        records.sort(key=lambda x: (int(x[2]) * 60 + int(x[3]) * 40) // 100, reverse=True)  
+    elif enternumber == "b":   
         print("Records ordered by final grade.")
 
     elif enternumber == "5":  
